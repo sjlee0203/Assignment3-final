@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scrabble Calculation</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function add(){
+            let word = document.querySelector('#wordinput').text
+            for(letter of word.toLowerCase().split('')){
+                let total = 0
+                switch(letter){
+                    case 'g':
+                        total += 2
+                        break
+                    case 'b':
+                        total += 3
+                        break
+                    case 'a', 'e', 't', 'r':
+                        total += 1
+                        break
+                    default:
+                        console.log('Invalid input')
+                        break
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Scrabble Calculation</h1>
+    </header>
+    <main>
+        <p>Challenge Yourself!</p>
+        <p>Enter a 5 or 6 letter word using these 7 letters:</p>
+        <table>
+            <tr>
+                <td><img src="G.png" alt="letter G tile" width="60" height="60" ></td>
+                <td><img src="A.png" alt="letter A tile" width="60" height="60" ></td>
+                <td><img src="B.png" alt="letter B tile" width="60" height="60" ></td>
+                <td><img src="E.png" alt="letter E tile" width="60" height="60" ></td>
+                <td><img src="R.png" alt="letter R tile" width="60" height="60" ></td>
+                <td><img src="T.png" alt="letter T tile" width="60" height="60" ></td>
+                <td><img src="E.png" alt="letter E tile" width="60" height="60" ></td>
+            </tr>
+        </table>
+        <br>
+        <input type="text" id="wordinput">
+    </main>
+</body>
+</html>

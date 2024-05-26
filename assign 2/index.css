@@ -1,0 +1,592 @@
+.hd-1920-1080-24fps-1 {
+    position: absolute;
+    top: 0px;
+    left: 1px;
+    width: 1439px;
+    height: 809px;
+}
+.p-l-a {
+    width: 329px;
+    position: relative;
+    letter-spacing: 0.25em;
+    display: inline-block;
+}
+.box {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 11.41px;
+    background-color: #aa252a;
+    width: 81px;
+    height: 81px;
+}
+.s {
+    position: absolute;
+    top: calc(50% - 29.5px);
+    left: calc(50% - 28.5px);
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 58px;
+    height: 60px;
+}
+.boxtext {
+    width: 81px;
+    position: relative;
+    height: 81px;
+}
+.boxtext-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 6px;
+    color: #fff;
+}
+.title {
+    position: absolute;
+    top: 303px;
+    left: 364px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    font-size: 64px;
+    color: #aa252a;
+}
+.box8 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 7.67px;
+    background: linear-gradient(#ffdb9f, #ffdb9f), linear-gradient(#ffdb9f, #ffdb9f), linear-gradient(#ffdb9f, #ffdb9f), #ffdb9f;
+    width: 54.5px;
+    height: 54.5px;
+}
+.w {
+    position: absolute;
+    height: 100%;
+    width: 101.56%;
+    top: 26.44%;
+    left: 10.46%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.div {
+    position: absolute;
+    height: 58.43%;
+    width: 38.89%;
+    top: 94.42%;
+    left: 82.17%;
+    font-size: 13.45px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.boxtext8 {
+    width: 45px;
+    position: relative;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    height: 35.6px;
+}
+.boxtext9 {
+    width: 45px;
+    position: relative;
+    height: 35.6px;
+}
+.watch {
+    position: absolute;
+    top: 873px;
+    left: 76px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 13.4px;
+    text-align: center;
+    font-size: 32.27px;
+    color: #000;
+}
+.the {
+    font-size: 36px;
+    font-weight: 500;
+    font-family: Poppins;
+}
+.iconic1 {
+    font-size: 64px;
+}
+.span {
+    font-size: 48px;
+}
+.iconic {
+    font-weight: 800;
+    font-family: Poppins;
+}
+.board-game {
+    font-weight: 500;
+}
+.the-iconic-board-game {
+    margin: 0;
+}
+.to-play-with {
+    margin: 0;
+    font-weight: 500;
+}
+.train {
+    font-size: 64px;
+    font-weight: 800;
+    font-family: Poppins;
+}
+.the-iconic-board-container1 {
+    width: 100%;
+}
+.the-iconic-board-container {
+    position: absolute;
+    top: 936px;
+    left: 76px;
+    display: flex;
+    align-items: center;
+    width: 606px;
+    height: 349px;
+    text-shadow: 1px 0 0 #000, 0 1px 0 #000, -1px 0 0 #000, 0 -1px 0 #000;
+    font-size: 36px;
+}
+.ad-scrabble-where-worlds-co {
+    position: absolute;
+    top: 873px;
+    left: 694px;
+    width: 670px;
+    height: 377px;
+}
+.watch1 {
+    position: absolute;
+    top: 1434px;
+    left: 76px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 13.4px;
+    text-align: center;
+    font-size: 32.27px;
+    color: #000;
+}
+.grid-1-icon {
+    position: absolute;
+    top: 1521px;
+    left: 743px;
+    border-radius: 25px;
+    width: 621px;
+    height: 561px;
+    overflow: hidden;
+    object-fit: cover;
+}
+.test-your-knowledge {
+    font-size: 32px;
+}
+.test-your-knowledge-container {
+    position: absolute;
+    top: 38px;
+    left: 36px;
+    display: flex;
+    align-items: center;
+    width: 472px;
+    height: 55px;
+    text-shadow: 1px 0 0 #000, 0 1px 0 #000, -1px 0 0 #000, 0 -1px 0 #000;
+    font-size: 64px;
+}
+.learn-the-ins {
+    position: absolute;
+    top: 146px;
+    left: 36px;
+    display: flex;
+    align-items: center;
+    width: 414px;
+    height: 50px;
+}
+.text {
+    flex: 1;
+    position: relative;
+    line-height: 150%;
+}
+.button {
+    position: absolute;
+    top: 473px;
+    left: 450px;
+    border-radius: 82px;
+    background-color: #e7e7f1;
+    width: 135px;
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 12px 24px;
+    box-sizing: border-box;
+    text-align: center;
+    color: #1c1c1c;
+    font-family: Lexend;
+}
+.grid-2 {
+    position: absolute;
+    top: 1772px;
+    left: 70px;
+    box-shadow: 0px 427px 120px rgba(0, 0, 0, 0), 0px 273px 109px rgba(0, 0, 0, 0.01), 0px 154px 92px rgba(0, 0, 0, 0.05), 0px 68px 68px rgba(0, 0, 0, 0.09), 0px 17px 38px rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+    background-color: #2b2a2a;
+    width: 621px;
+    height: 561px;
+    overflow: hidden;
+}
+.learn-the-rules-container {
+    position: absolute;
+    top: 22px;
+    left: 24px;
+    display: flex;
+    align-items: center;
+    width: 561px;
+    height: 55px;
+    font-size: 64px;
+}
+.button1 {
+    position: absolute;
+    top: 129px;
+    left: 459px;
+    border-radius: 82px;
+    background-color: #e7e7f1;
+    width: 135px;
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 12px 24px;
+    box-sizing: border-box;
+    color: #1c1c1c;
+    font-family: Lexend;
+}
+.learn-the-ins1 {
+    position: absolute;
+    top: 104px;
+    left: 24px;
+    display: flex;
+    align-items: center;
+    width: 414px;
+    height: 50px;
+}
+.learn-the-rules {
+    position: absolute;
+    top: 1521px;
+    left: 76px;
+    box-shadow: 0px 426px 119px rgba(0, 0, 0, 0), 0px 273px 109px rgba(0, 0, 0, 0.01), 0px 153px 92px rgba(0, 0, 0, 0.05), 0px 68px 68px rgba(0, 0, 0, 0.09), 0px 17px 38px rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+    background-color: #2b2a2a;
+    width: 620px;
+    height: 208px;
+    overflow: hidden;
+}
+.learn-the-rules2 {
+    position: absolute;
+    top: 2125px;
+    left: 740px;
+    box-shadow: 0px 426px 119px rgba(0, 0, 0, 0), 0px 273px 109px rgba(0, 0, 0, 0.01), 0px 153px 92px rgba(0, 0, 0, 0.05), 0px 68px 68px rgba(0, 0, 0, 0.09), 0px 17px 38px rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+    background-color: #2b2a2a;
+    width: 620px;
+    height: 208px;
+    overflow: hidden;
+}
+.scrabble-logo-2003-1-icon {
+    width: 58px;
+    position: relative;
+    height: 52px;
+    object-fit: cover;
+}
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.container {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.line {
+    align-self: stretch;
+    position: relative;
+    border-top: 1px solid #262626;
+    box-sizing: border-box;
+    height: 1px;
+}
+.text-button {
+    position: relative;
+    line-height: 150%;
+}
+.text-button1 {
+    position: absolute;
+    top: 38px;
+    left: 11px;
+    line-height: 150%;
+}
+.text-button-wrapper {
+    width: 100px;
+    position: relative;
+    height: 100px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.button3 {
+    border-radius: 6px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 6px;
+}
+.icon {
+    width: 20px;
+    position: relative;
+    height: 20px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.button4 {
+    border-radius: 6px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+.button5 {
+    width: 0px;
+    border-radius: 6px;
+    height: 24px;
+}
+.container1 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.button6 {
+    border-radius: 100px;
+    background-color: #8f222f;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 12px;
+}
+.buttons-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 8px;
+}
+.text3 {
+    position: relative;
+    line-height: 150%;
+    font-weight: 300;
+}
+.line2 {
+    align-self: stretch;
+    width: 1px;
+    position: relative;
+    border-right: 1px solid #b3b3b3;
+    box-sizing: border-box;
+}
+.sub-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 8px;
+}
+.container2 {
+    align-self: stretch;
+    border-radius: 100px;
+    background-color: #1a1a1a;
+    border: 1px solid #262626;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 24px 12px 12px;
+    font-size: 14px;
+    color: #b3b3b3;
+}
+.footer-section {
+    position: absolute;
+    bottom: 0px;
+    left: calc(50% - 720px);
+    width: 1440px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 60px 80px 30px;
+    box-sizing: border-box;
+    gap: 40px;
+    color: #e4e4e7;
+    font-family: Lexend;
+}
+.developed-in-1938 {
+    position: absolute;
+    top: 431px;
+    left: 400px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 606px;
+    height: 210px;
+}
+.text4 {
+    position: relative;
+    line-height: 150%;
+    font-weight: 600;
+}
+.button9 {
+    position: absolute;
+    top: 613px;
+    left: 635px;
+    border-radius: 82px;
+    background-color: #8f222f;
+    width: 135px;
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 12px 24px;
+    box-sizing: border-box;
+    font-family: Lexend;
+}
+.scrabble-logo-2003-1-icon1 {
+    width: 90px;
+    position: relative;
+    height: 82px;
+    object-fit: cover;
+    z-index: 0;
+}
+.buttons-container1 {
+    width: 54px;
+    height: 21px;
+    z-index: 1;
+}
+.text5 {
+    position: relative;
+    line-height: 150%;
+    font-weight: 500;
+}
+.buttons-container2 {
+    margin: 0 !important;
+    position: absolute;
+    top: calc(50% - 11px);
+    left: calc(50% - 150.5px);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 26px;
+    z-index: 2;
+}
+.navbar {
+    position: absolute;
+    top: 12px;
+    left: calc(50% - 640px);
+    border-radius: 100px;
+    background-color: #1c1c1c;
+    border: 1px solid #262626;
+    box-sizing: border-box;
+    width: 1280px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 24px;
+    font-size: 14px;
+}
+.home {
+    width: 222px;
+    position: relative;
+    display: inline-block;
+    height: 23px;
+    flex-shrink: 0;
+    z-index: 0;
+}
+.introduction {
+    width: 222px;
+    position: relative;
+    display: inline-block;
+    height: 23px;
+    flex-shrink: 0;
+    z-index: 1;
+}
+.characters {
+    width: 222px;
+    position: relative;
+    display: inline-block;
+    height: 23px;
+    flex-shrink: 0;
+    z-index: 2;
+}
+.controls-navigations {
+    width: 222px;
+    position: relative;
+    display: inline-block;
+    flex-shrink: 0;
+    z-index: 3;
+}
+.scrabble-logo-2003-1-icon2 {
+    width: 83px;
+    position: absolute;
+    margin: 0 !important;
+    top: -10px;
+    left: 46px;
+    height: 75px;
+    object-fit: cover;
+    z-index: 4;
+}
+.nav {
+    position: absolute;
+    top: 14px;
+    left: calc(50% - 681px);
+    backdrop-filter: blur(4px);
+    border-radius: 15px;
+    background-color: rgba(231, 231, 241, 0.85);
+    width: 1361px;
+    height: 49px;
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    text-align: center;
+    color: #aa0a1d;
+    font-family: 'Noto Sans';
+}
+.desktop-1 {
+    width: 100%;
+    position: relative;
+    background-color: #1e1e1e;
+    height: 2878px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 16px;
+    color: #fff;
+    font-family: Poppins;
+}
+

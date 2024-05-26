@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Explanation</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:wght@200&family=Noto+Serif+KR&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <header>
+        <h1>Explanation for HTML & CSS</h1>
+    </header>
+    <body>
+        <div class="explain">
+            <h3>HTML</h3>
+            <pre>
+                1. Title tag (&lt;title&gt;)
+                - The &#39;&lt;title&gt;&#39; tag defines the title of the page, which contains information about &quot;Kendo&quot; and
+                sets the title to &quot;Kendo.&quot;
+
+                2. Head sector (&lt;Head&gt;)
+                - In the head sector, I attached a link to the font obtained from Google Font, and imported the
+                style.css to apply the css file I wrote separately to the html.
+
+                3. Page, intro sector
+                - I used div tags to divide the page into different parts, and I named and managed them with
+                class=&quot;&quot;. And the &#39;&lt;a&gt;&#39; tag creates a hyperlink, which has a &quot;Home&quot; menu and is set to return to
+                the homepage when the user clicks on it.
+
+                4. Text section
+                - For the text, I needed to write large text in the centre of the photo, but I had set the font-size
+                to 15px in the css, so I used the &lt;span&gt; tag to write the word &quot;Kendo&quot; and used font-
+                size=&quot;400%&quot; to use 60px, which is 4 times the size of 15px. The sentences describing kendo
+                are punctuated with &lt;p&gt; and line breaks with &lt;br /&gt;.
+
+                5. Rules sector
+                - I defined everything below the intro and text section as an article, I also divided the big parts,
+                rules and photoparts, into &lt;section&gt;. And since the header of the article is an explanation of the
+                rules, which is one of the most important parts of the page, I used the largest header, &lt;h1&gt;. I
+                also used class=&quot;float-left&quot; to align the pictures of the different striking parts of kendo to the left
+                side of the page and used width and height to size the images. and I used &lt;p&gt; to break each
+                paragraph into sections and &lt;br /&gt; to wrap each line. At the end, I used &lt;a&gt; to attach a
+                hyperlink.
+
+                6. Photo sector
+                - Because the photo sector is less important than the rules, and I need to emphasise the rules
+                more, I used a &lt;h2&gt; for the header, which is smaller than the &lt;h1&gt; in the rules. And to keep the
+                photos equally spaced and neatly arranged, I used a &lt;table&gt;. Since there are three photos and
+                they will all fit on a single line, we defined the row of the table with &lt;tr&gt; and aligned them by
+                putting the image inside the &lt;th&gt;.
+
+                7. Backlink with author (&lt;Footer&gt;)
+                - At the very end of the page, I wrote the author of the page, which is my name and provides a
+                link for the user to return to another page using &lt;footer&gt; and &lt;a&gt;.
+            </pre>
+
+            <h3>CSS</h3>
+            <pre>
+                1. body
+                - I wrote information about the font in the body, which I got from Google Fonts.
+
+                2. page
+                - To set a homepage-wide background picture on the page, I used text-align: centre to align the
+                picture to the centre and set the wallpaper with background-image:url&quot;&quot;. And to place the text at
+                the centre of the photo, I used position: relative.
+
+                3. intro
+                - In the intro, I inserted a background picture and used background-repeat: no-repeat to prevent
+                the picture from repeating. I used background-size: 100% auto to make sure the photo fits the
+                page size. I also used filter:brightness to reduce the brightness of the photo to make the text
+                more readable.
+
+                4. text
+                - I used position:absolute to centre the text, and top, left, width, text-align, transform: translate( -
+                50%, -50%) to position the text in the centre of the photo.I also set the colour of the text to white
+                using colour to make it more readable since the brightness of the background photo was
+                lowered.
+
+                5. header
+                - To make the header stand out more on the page, we used background-colour: to set the
+                background colour to white and padding to move it slightly to the right.
+
+                6. nav, img, photos, footer
+                - I changed the colour of the hyperlink back to home to white with a:link, a:visited, and removed
+                the underline from the link with text-decoration. And the photos should all be left-aligned, so I
+                used float: left to make sure they are, and when I created the &lt;table&gt; we lost the margin on the
+                right side due to the size of the photos, so I used margin-right to move them slightly to the left to
+                centre them. And finally The photos and footer are spaced apart from the top content using
+                padding-top to ensure they are readable and not cluttered.
+            </pre>
+            <footer>
+                by Seungjae Lee <br />
+                <br />
+                <a href="kendo.html">Go back</a>
+            </footer>
+        </div>
+    </body>
+</html>
