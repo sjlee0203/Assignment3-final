@@ -13,13 +13,13 @@ header {
     position: relative;
 }
 
-.logo-icon {
+.logo {
     width: 100px;
     height: auto;
     object-fit: cover;
 }
 
-.nav menu {
+.menu {
     display: flex;
     align-items: center;
     gap: 15px;
@@ -32,7 +32,7 @@ header {
     border-radius: 4px;
 }
 
-.nav-icon {
+.icon {
     width: 25px;
     height: 25px;
     object-fit: contain;
@@ -47,20 +47,21 @@ header {
 nav {
     display: flex;
     justify-content: center;
-    gap: 30px;  /* Reduced gap to fit all items in one line */
+    gap: 50px;  
     position: absolute;
-    bottom: 430px; /* Adjust this value to align the nav items with the bottom of the logo */
+    bottom: 425px;
     left: 50%;
     transform: translateX(-50%);
+    white-space: nowrap; 
 }
 
-.menu-item {
+.navbar {
     cursor: pointer;
-    padding: 10px 15px; /* Reduced padding to fit all items in one line */
-    white-space: nowrap;  /* Prevents text from wrapping */
+    padding: 10px 15px; 
+    white-space: nowrap;  
 }
 
-.promo-section {
+.promotion {
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -78,7 +79,7 @@ nav {
     object-fit: cover;
 }
 
-.promo-text {
+.promotion-text {
     font-size: 24px;
     text-align: left;
     margin-left: 50px;
@@ -175,7 +176,7 @@ footer {
     cursor: pointer;
     border-radius: 4px;
     font-size: 16px;
-    width: 220px; /* match input width */
+    width: 220px;
     margin-top: 10px;
 }
 
