@@ -191,10 +191,6 @@ h3, p {
 }
 
 @media screen and (max-width: 450px) {
-    body {
-        margin: 0;
-    }
-
     header {
         flex-direction: row;
         justify-content: space-between;
