@@ -387,7 +387,7 @@ h3, p {
     }
 
     .product_actions button{
-        width: 70%;
+        width: 60%;
     }
 
     .add_to_cart_container, .buy_now_container {
@@ -419,11 +419,11 @@ h3, p {
     }
 
     .path{
-        font-size: 70%;
+        font-size: 60%;
     }
 
     .path a{
-        font-size: 100%;
+        font-size: 90%;
     }
 
     .product_info h2{
