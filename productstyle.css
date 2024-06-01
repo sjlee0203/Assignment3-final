@@ -294,10 +294,11 @@ h3, p {
 
     .email_input{
         width: 60%;
+        padding-left: 30%
     }
 
     .product_table{
-        align-items: center;
+        translateX: 3%
     }
     
     .navbar.active {
