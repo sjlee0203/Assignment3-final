@@ -423,12 +423,12 @@ h3, p {
     }
 
     .path a{
-        font-size: 90%;
+        font-size: 75%;
     }
 
     .product_info h2{
         font-size: 120%;
-        width: 60%;
+        width: 70%;
     }
 
     .product_description_container{
@@ -454,7 +454,11 @@ h3, p {
     }
 
     .search_bar{
-        width: 60%
+        width: 60%;
+    }
+
+    .product_options{
+        width: 60%;
     }
 
     .navbar.active {
