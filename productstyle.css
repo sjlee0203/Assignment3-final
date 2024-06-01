@@ -230,12 +230,7 @@ h3, p {
         width: 100%;
         text-align: center;
         padding: 10px 0;
-        font-size: 60%
-    }
-
-    .promotion {
-        flex-direction: column;
-        align-items: center;
+        font-size: 60%;
     }
 
     .banner_image {
@@ -245,17 +240,6 @@ h3, p {
     .banner_image1 {
         width: 100%;
         height: auto;
-    }
-
-    .promotion_text {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        padding: 20px;
-        border-radius: 8px;
-        text-align: center;
-        background-color: rgba(255, 255, 255, 0.7);
-        transform: translate(-50%, -50%);
     }
 
     .section_title {
@@ -310,7 +294,11 @@ h3, p {
     }
 
     .search_bar{
-        width: 60%
+        width: 60%;
+    }
+
+    .product_table{
+        padding-left: 2%;
     }
     
     .navbar.active {
