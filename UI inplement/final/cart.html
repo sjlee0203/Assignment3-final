@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, width=device-width">
+    <link rel="stylesheet" href="./cartstyle.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;700&display=swap" />
+</head>
+<body>
+    <header>
+        <img class="toggle_icon" src="toggle.png" alt="Toggle Menu">
+        <a href="homepage.html"><img class="logo_icon" alt="Logo" src="logo.png"></a>
+        <div class="menu">
+            <input type="text" class="search_bar" placeholder="Search...">
+            <img class="icon" alt="Search" src="search.png">
+            <img class="icon" alt="Account" src="account.png">
+            <img class="icon" alt="Wishlist" src="wishlist.png">
+            <a href="emptycart.html"><img class="icon" alt="Cart" src="cart.png"></a>
+        </div>
+    </header>
+    <nav class="navbar">
+        <a class="menu_item" id="newText" href="product.html">New</a>
+        <div class="menu_item">Furniture</div>
+        <div class="menu_item">Homewares</div>
+        <div class="menu_item">Gifts</div>
+        <div class="menu_item">Clothing</div>
+        <div class="menu_item">Jewellery</div>
+        <div class="menu_item">World Bazaar</div>
+        <div class="menu_item">Clearance</div>
+    </nav>
+    <div class="main">
+        <div class="title_bar">
+            <div class="left_text">
+                <a href="homepage.html">Home</a> / Cart
+            </div>
+            <h2 class="cart_title">Cart</h2>
+        </div>
+        <div class="cart_section">
+            <div class="cart_content">
+                <div class="cart_items">
+                    <h3>My Items</h3>
+                    <div class="cart_item">
+                        <a href="productexplain.html"><img src="product.png" alt="6mm Beaded Strap Wrist Mobile Phone Lanyard"></a>
+                        <div class="item_details">
+                            <a href="productexplain.html"><h4>6mm Beaded Strap Wrist Mobile Phone Lanyard</h4></a>
+                            <p>Price: <span class="original_price">$20.95</span> <b>$8.38</b></p>
+                            <p id="color_selection"></p>
+                            <div class="item_quantity">
+                                <input type="number" id="quantity_selection" min="1" value="1" onchange="updateCartValues()">
+                            </div>
+                        </div>
+                        <button class="remove_item" onclick="window.location.href='emptycart.html'">X</button>
+                    </div>
+                    <div class="subtotal">
+                        Subtotal: <b id="subtotal">$8.38</b>
+                    </div>
+                </div>
+                <div class="cart_summary">
+                    <h3>Cart Summary</h3>
+                    <p id="summary_subtotal">Subtotal: $8.38</p>
+                    <p id="summary_tax">Tax: $0.84</p>
+                    <p>Delivery Fee: $4</p>
+                    <div class="total">
+                        Total: <b id="summary_total">AUD $13.22</b>
+                    </div>
+                    <button class="continue_shopping" onclick="window.location.href='homepage.html'">Continue Shopping</button>
+                    <button class="checkout" onclick="window.location.href='checkout.html'">Checkout</button>
+                    <div class="payment_methods">
+                        <img src="shop_pay.png" alt="Shop Pay">
+                        <img src="paypal1.png" alt="PayPal">
+                        <img src="google_pay.png" alt="Google Pay">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="footer_section">
+                <h3>Discover</h3>
+                <p>Blog</p>
+                <p>Ethics</p>
+                <p>The Story of ISHKA</p>
+                <p>Wholesale</p>
+                <p>Privacy Policy</p>
+            </div>
+            <div class="footer_section">
+                <h3>Seek</h3>
+                <p>Contact Us</p>
+                <p>Current Offer & Delivery Deals</p>
+                <p>Returns & Refund Policy</p>
+                <p>Terms & Conditions</p>
+                <p>FAQ’s</p>
+            </div>
+            <div class="footer_section">
+                <h3>My Account</h3>
+                <p>Join the Karma Club</p>
+                <p>Login to your Account</p>
+                <p>Check Your Voucher Balance</p>
+                <p>View Cart</p>
+                <p>Gift Voucher</p>
+            </div>
+            <div class="subscription">
+                <h3>Keep in Touch</h3>
+                <div class="email_input">
+                    <input type="email" id="email" name="email" placeholder="Enter Your Email">
+                </div>
+                <button class="subscribe_button" id="subscribeButton">Subscribe</button>
+            </div>
+        </footer>
+    </div>
+    <script src="./final.js"></script>
+</body>
+</html>

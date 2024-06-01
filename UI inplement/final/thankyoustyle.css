@@ -1,0 +1,75 @@
+body {
+    font-family: 'Noto Sans', sans-serif;
+    background-color: #fffff0;
+    margin: 0;
+    color: #563D16;
+    text-align: center;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.logo_icon {
+    width: 100px;
+    height: auto;
+    object-fit: cover;
+}
+
+.container {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+}
+
+.thank_you_message {
+    margin-top: 30px;
+}
+
+.thank_you_message h1 {
+    font-size: 48px;
+    color: #563D16;
+}
+
+.thank_you_message h2 {
+    font-size: 24px;
+    color: #563D16;
+}
+
+.thank_you_message p {
+    font-size: 18px;
+    color: #563D16;
+    margin: 20px 0;
+}
+
+.go_back_button {
+    background-color: #563D16;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 450px) {
+    .thank_you_message h1 {
+        font-size: 36px;
+    }
+
+    .thank_you_message h2 {
+        font-size: 20px;
+    }
+
+    .thank_you_message p {
+        font-size: 16px;
+    }
+
+    .go_back_button {
+        padding: 12px 24px;
+        font-size: 14px;
+    }
+}
+

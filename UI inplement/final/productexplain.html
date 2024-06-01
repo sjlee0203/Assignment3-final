@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, width=device-width">
+    <link rel="stylesheet" href="./explainstyle.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;700&display=swap" />
+</head>
+<body>
+    <header>
+        <img class="toggle_icon" src="toggle.png" alt="Toggle Menu">
+        <a href="homepage.html"><img class="logo_icon" alt="Logo" src="logo.png"></a>
+        <div class="menu">
+            <input type="text" class="search_bar" placeholder="Search...">
+            <img class="icon" alt="Search" src="search.png">
+            <img class="icon" alt="Account" src="account.png">
+            <img class="icon" alt="Wishlist" src="wishlist.png">
+            <a href="emptycart.html"><img class="icon" alt="Cart" src="cart.png"></a>
+        </div>
+    </header>
+    <nav class="navbar">
+        <a href="product.html" class="navbar_item">New</a>
+        <div class="navbar_item">Furniture</div>
+        <div class="navbar_item">Homewares</div>
+        <div class="navbar_item">Gifts</div>
+        <div class="navbar_item">Clothing</div>
+        <div class="navbar_item">Jewellery</div>
+        <div class="navbar_item">World Bazaar</div>
+        <div class="navbar_item">Clearance</div>
+    </nav>
+    <div class="main">
+        <div class="path">
+            <a href="homepage.html" class="pathlink">Home</a> / <a href="product.html" class="pathlink">New</a> / 6mm Beaded Strap Wrist Mobile Phone Lanyard
+        </div>
+        <div class="product_details">
+            <div class="product_image_large">
+                <img src="product.png" alt="6mm Beaded Strap Wrist Mobile Phone Lanyard">
+            </div>
+            <div class="product_info">
+                <h2>6mm Beaded Strap Wrist Mobile Phone Lanyard</h2>
+                <div class="product_price_container">
+                    <p class="product_price"><span class="original_price">$20.95</span> <b>$8.38</b></p>
+                    <div class="product_options">
+                        <input type="number" min="1" value="1" class="quantity_input">
+                        <select class="color_select">
+                            <option value="6mm Rhodochrosite">6mm Rhodochrosite</option>
+                            <option value="6mm Rose Quartz">6mm Rose Quartz</option>
+                            <option value="6mm Tiger Eye">6mm Tiger Eye</option>
+                            <option value="6mm Black Onyx">6mm Black Onyx</option>
+                            <option value="6mm Indian Agate">6mm Indian Agate</option>
+                            <option value="6mm Red Carnelian">6mm Red Carnelian</option>
+                            <option value="6mm Matte Amazonite">6mm Matte Amazonite</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="product_actions">
+                    <div class="add_to_cart_container">
+                        <button class="add_to_cart" onclick="addToCart()">Add to Cart</button>
+                        <img class="heart_icon" alt="Wishlist" src="heart.png">
+                    </div>
+                    <div class="buy_now_container">
+                        <button class="buy_now" onclick="buyNow()">Buy Now</button>
+                        <div class="payment_icons">
+                            <img class="payment_icon" alt="PayPal" src="paypal.png">
+                            <img class="payment_icon" alt="Humm" src="humm.png">
+                            <img class="payment_icon" alt="Klarna" src="klarna.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="product_description_container">
+            <div class="product_description">
+                <h3>Description</h3>
+                <p>
+                    Keep your phone secure and stylish with our 6mm Beaded Strap Wrist Mobile Phone Lanyard. This lanyard features a sleek design with 6mm beads, offering both functionality and fashion. Perfect for keeping your phone easily accessible while on the go, the wrist strap allows for convenient carrying and prevents accidental drops. Whether you're running errands, attending events, or simply want to add a chic touch to your phone, this beaded lanyard is the perfect accessory. Embrace practicality without compromising on style with our Beaded Strap Wrist Mobile Phone Lanyard.
+                </p>
+                <p>
+                    Material: Semi-precious Stone
+                </p>
+                <p>
+                    This is an online exclusive item, shipped directly from our supplier partner. It is 100% guaranteed by Ishka. Up to 6 weeks delivery time. Some items may be shipped separately at no extra cost.
+                </p>
+            </div>
+        </div>
+        <div class="product_review_container">
+            <div class="product_review">
+                <h3>Review</h3>
+                <p>There are no reviews yet. Be the first!</p>
+                <form>
+                    <textarea placeholder="Write your review"></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+        <footer>
+            <div class="footer_section">
+                <h3>Discover</h3>
+                <p>Blog</p>
+                <p>Ethics</p>
+                <p>The Story of ISHKA</p>
+                <p>Wholesale</p>
+                <p>Privacy Policy</p>
+            </div>
+            <div class="footer_section">
+                <h3>Seek</h3>
+                <p>Contact Us</p>
+                <p>Current Offer & Delivery Deals</p>
+                <p>Returns & Refund Policy</p>
+                <p>Terms & Conditions</p>
+                <p>FAQ’s</p>
+            </div>
+            <div class="footer_section">
+                <h3>My Account</h3>
+                <p>Join the Karma Club</p>
+                <p>Login to your Account</p>
+                <p>Check Your Voucher Balance</p>
+                <p>View Cart</p>
+                <p>Gift Voucher</p>
+            </div>
+            <div class="subscription">
+                <h3>Keep in Touch</h3>
+                <div class="email_input">
+                    <input type="email" id="email" name="email" placeholder="Enter Your Email">
+                </div>
+                <button class="subscribe_button" id="subscribeButton">Subscribe</button>
+            </div>
+        </footer>
+    </div>
+    <script src="./final.js"></script>
+</body>
+</html>

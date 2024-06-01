@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, width=device-width">
+    <link rel="stylesheet" href="./checkoutstyle.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;700&display=swap" />
+</head>
+<body onload="updateCheckout()">
+    <header>
+        <a href="homepage.html"><img class="logo_icon" alt="Logo" src="logo.png"></a>
+    </header>
+    <div class="main">
+        <h2 class="checkout_title">Checkout</h2>
+        <div class="checkout_content">
+            <div class="left_column">
+                <div class="personal_information">
+                    <h3>Personal Information</h3>
+                    <form id="checkout_form">
+                        <div class="country_choice">
+                            <label for="country">Country / Region</label>
+                            <select id="country">
+                                <option>Australia</option>
+                                <option>United States of America</option>
+                                <option>United Kingdom</option>
+                                <option>Republic of Korea</option>
+                                <option>Japan</option>
+                                <option>China</option>
+                            </select>
+                        </div>
+                        <div class="form_group half_width">
+                            <label for="first_name">First Name</label>
+                            <input type="text" id="first_name" name="first_name">
+                        </div>
+                        <div class="form_group half_width">
+                            <label for="last_name">Last Name</label>
+                            <input type="text" id="last_name" name="last_name">
+                        </div>
+                        <div class="form_group full_width">
+                            <label for="address1">Address 1</label>
+                            <input type="text" id="address1" name="address1">
+                        </div>
+                        <div class="form_group full_width">
+                            <label for="address2">Address 2</label>
+                            <input type="text" id="address2" name="address2">
+                        </div>
+                        <div class="form_group third_width">
+                            <label for="city">City</label>
+                            <input type="text" id="city" name="city">
+                        </div>
+                        <div class="form_group third_width">
+                            <label for="state">State / Territory</label>
+                            <input type="text" id="state" name="state">
+                        </div>
+                        <div class="form_group third_width">
+                            <label for="postcode">Postcode</label>
+                            <input type="text" id="postcode" name="postcode">
+                        </div>
+                        <div class="form_group full_width">
+                            <label for="phone">Phone Number</label>
+                            <input type="text" id="phone" name="phone">
+                        </div>
+                    </form>
+                </div>
+                <div class="shipping_method">
+                    <h3>Shipping Method</h3>
+                    <label class="shipping_option">
+                        <input type="radio" name="shipping" value="standard" checked>
+                        Standard Shipping - $4
+                    </label>
+                    <label class="shipping_option">
+                        <input type="radio" name="shipping" value="express">
+                        Express Shipping - $11
+                    </label>
+                </div>
+                <div class="payment">
+                    <h3>Payment</h3>
+                    <div class="payment_option">
+                        <input type="radio" name="payment" value="credit_card">
+                        <label for="credit_card">Credit Card</label>
+                        <div class="credit_card_form">
+                            <input type="text" placeholder="Card Number">
+                            <input type="text" placeholder="Expiration Date (MM/YY)">
+                            <input type="text" placeholder="Security Code">
+                            <input type="text" placeholder="Name on Card">
+                        </div>
+                    </div>
+                    <div class="payment_option">
+                        <input type="radio" name="payment" value="paypal">
+                        <label for="paypal">
+                            <p>Paypal</p>
+                        </label>
+                    </div>
+                    <div class="payment_option">
+                        <input type="radio" name="payment" value="klarna">
+                        <label for="klarna">
+                            <p>Klarna - Flexible payments</p>
+                        </label>
+                    </div>
+                    <div class="payment_option">
+                        <input type="radio" name="payment" value="humm">
+                        <label for="humm">
+                            <p>humm - The Bigger Buy Now Pay Later</p>
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="right_column">
+                <div class="order_summary">
+                    <h3>Order Summary</h3>
+                    <div class="order_item">
+                        <img src="productcart.png" alt="6mm Beaded Strap Wrist Mobile Phone Lanyard">
+                        <div class="item_details">
+                            <p>6mm Beaded Strap Wrist Mobile Phone Lanyard</p>
+                            <p>Price: <span class="original_price">$20.95</span> <b>$8.38</b></p>
+                            <p id="color_selection"></p>
+                        </div>
+                    </div>
+                    <div class="form_group">
+                        <label for="discount_code">Discount Code</label>
+                        <input type="text" id="discount_code" name="discount_code" placeholder="Discount Code">
+                        <button class="apply_button">Apply</button>
+                    </div>
+                    <div class="order_total">
+                        <p>Subtotal: <span id="checkout_subtotal">$8.38</span></p>
+                        <p>Tax: <span id="checkout_tax">$0.84</span></p>
+                        <p>Delivery Fee: <span id="checkout_delivery">$4.00</span></p>
+                        <p>Discount: $0</p>
+                        <p><b>Total: <span id="checkout_total">AUD $13.22</span></b></p>
+                    </div>
+                </div>
+                <div class="express_checkout">
+                    <h3>Express Checkout</h3>
+                    <div class="express_buttons">
+                        <img src="shop_pay.png" alt="Shop Pay">
+                        <img src="paypal1.png" alt="PayPal">
+                        <img src="google_pay.png" alt="Google Pay">
+                    </div>
+                </div>
+                <button class="place_order" onclick="validateForm()">Place Order</button>
+            </div>
+        </div>
+    </div>
+    <script src="./final.js"></script>
+</body>
+</html>

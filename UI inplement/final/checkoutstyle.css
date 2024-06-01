@@ -1,0 +1,297 @@
+body {
+    font-family: 'Noto Sans', sans-serif;
+    background-color: #fffff0;
+    margin: 0;
+    color: #563D16;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.logo_icon {
+    width: 100px;
+    height: auto;
+    object-fit: cover;
+}
+
+.main {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+}
+
+.checkout_title {
+    font-size: 24px;
+    color: #563D16;
+    margin-bottom: 40px;
+}
+
+.checkout_content {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    margin-bottom: 20px;
+}
+
+.left_column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.right_column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.personal_information, .order_summary, .shipping_method, .payment {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.personal_information form, .order_summary {
+    text-align: left;
+}
+
+.personal_information h3, .order_summary h3, .shipping_method h3, .payment h3, .express_checkout h3 {
+    font-size: 18px;
+    color: #563D16;
+    margin-bottom: 20px;
+}
+
+.form_group {
+    margin-bottom: 20px;
+    width: 300px;
+}
+
+.form_group.full_width {
+    width: 550px;
+}
+
+.country_choice {
+    width: 572px;
+    padding-bottom: 20px;
+}
+
+.form_group.half_width {
+    width: 263px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+}
+
+.form_group.half_width:last-child {
+    margin-right: 0;
+}
+
+.form_group.third_width {
+    width: 167px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+}
+
+.form_group.third_width:last_child {
+    margin-right: 0;
+}
+
+.personal_information label, .order_summary label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.personal_information input, .order_summary input, .personal_information select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.order_item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.order_item img {
+    width: 100px;
+    height: auto;
+    border-radius: 4px;
+}
+
+.item_details {
+    margin-left: 20px;
+}
+
+.item_details p {
+    margin: 5px 0;
+}
+
+.original_price {
+    text-decoration: line-through;
+    color: #999;
+}
+
+.apply_button {
+    background-color: #563D16;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+.order_total p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.order_total b {
+    font-size: 16px;
+}
+
+.express_checkout {
+    margin-top: 20px;
+}
+
+.express_checkout h3 {
+    font-size: 18px;
+    color: #563D16;
+    margin-bottom: 20px;
+}
+
+.express_buttons {
+    display: flex;
+    gap: 15px;
+    justify-content: flex-end;
+    padding-right: 110px;
+}
+
+.express_buttons img {
+    width: 120px;
+    height: auto;
+    cursor: pointer;
+}
+
+.shipping_method, .payment {
+    width: 100%;
+    margin: 0;
+}
+
+.shipping_method h3, .payment h3 {
+    font-size: 18px;
+    color: #563D16;
+    margin-bottom: 20px;
+}
+
+.shipping_option {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.payment_option {
+    margin-bottom: 20px;
+}
+
+.payment_option label {
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.credit_card_form input {
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+.place_order {
+    background-color: #563D16;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-top: 20px;
+    align-self: flex-end;
+    margin-right: 233px;
+}
+
+@media screen and (max-width: 450px) {
+
+    header {
+        display: flex;
+        justify-content: center;
+        padding: 10px 0;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .main {
+        padding: 10px;
+    }
+
+    .checkout_content {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        position: absolute;
+        width: 96%;
+        margin: 0;
+    }
+
+    .left_column, .right_column {
+        width: 100%;
+    }
+
+    .country_choice{
+        width: 100%;
+    }
+
+    .form_group.half_width, .form_group.third_width, .form_group.full_width{
+        width: 94.5%;
+    }
+
+    .express_buttons {
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+        padding-left: 35%;
+    }
+
+    .express_buttons img {
+        width: 40%;
+    }
+
+    .shipping_method{
+        width: 91.5%;
+    }
+
+    .payment{
+        width: 91.5%;
+    }
+
+    .checkout_title{
+        font-size: 120%;
+    }
+
+    .place_order {
+        width: 80%;
+        margin-right: 9%;
+        margin-bottom: 7%;
+    }
+}
+
