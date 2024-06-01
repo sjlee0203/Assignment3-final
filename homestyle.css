@@ -269,7 +269,11 @@ h3, p {
     }
 
     .promotion_text {
-        font-size: 80%
+        font-size: 110%
+    }
+
+    .shop_now_button {
+        height: 15%
     }
 
     .section_title {
