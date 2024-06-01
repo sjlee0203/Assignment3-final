@@ -241,7 +241,7 @@ h3, p {
         width: 100%;
         text-align: center;
         padding: 10px 0;
-        font-size: 60%
+        font-size: 60%;
     }
 
     .promotion {
@@ -302,7 +302,7 @@ h3, p {
     }
 
     .search_bar{
-        width: 60%
+        width: 60%;
     }
 
     .navbar.active {
