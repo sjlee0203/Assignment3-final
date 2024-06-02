@@ -298,7 +298,7 @@ h3, p {
     }
 
     .product_table table{
-        align-items: center;
+        margin: 0;
     }
     
     .navbar.active {
