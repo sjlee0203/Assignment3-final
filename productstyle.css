@@ -293,12 +293,12 @@ h3, p {
     }
 
     .email_input{
-        width: 65%;
-        padding-left: 20%
+        width: 70%;
+        padding-left: 15%
     }
 
     .product_table table{
-        padding-left: 0;
+        align-items: center;
     }
     
     .navbar.active {
