@@ -179,7 +179,7 @@ header {
     display: flex;
     gap: 15px;
     justify-content: flex-end;
-    padding-right: 110px;
+    padding-left: 110px;
 }
 
 .express_buttons img {
