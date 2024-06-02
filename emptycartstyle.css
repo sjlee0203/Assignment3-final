@@ -226,6 +226,10 @@ h3, p {
         width: 100%;
     }
 
+    .menu_item {
+        font-size: 60%;
+    }
+
     .toggle_icon {
         display: block;
         width: 20px;
@@ -290,6 +294,10 @@ h3, p {
     .email_input{
         width: 70%;
         padding-left: 15.5%
+    }
+
+    .search_bar{
+        width: 60%
     }
 
     .navbar.active {
