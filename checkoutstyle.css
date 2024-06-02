@@ -273,6 +273,7 @@ header {
         flex-direction: row;
         align-items: center;
         gap: 10px;
+        padding-left: 30%
     }
 
     .shipping_method{
@@ -292,9 +293,8 @@ header {
     }
 
     .express_buttons img {
-        width: 70%;
+        width: 60%;
         height: auto;
-        padding-left: 30%
     }
 
     .place_order {
