@@ -150,7 +150,7 @@ nav {
 }
 
 .item_details h4 {
-    font-size: 13px;
+    font-size: 16px;
     margin: 0 0 10px;
     color: #563D16;
 }
@@ -354,8 +354,8 @@ h3, p {
     }
 
     .item_details h4{
-        font-size: 90%;
-        width: 60%;
+        font-size: 80%;
+        width: 70%;
     }
 
     .checkout, .continue_shopping {
