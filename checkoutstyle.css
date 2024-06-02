@@ -179,7 +179,7 @@ header {
     display: flex;
     gap: 15px;
     justify-content: flex-end;
-    padding-left: 110px;
+    padding-right: 110px;
 }
 
 .express_buttons img {
@@ -273,7 +273,7 @@ header {
         flex-direction: row;
         align-items: center;
         gap: 10px;
-        padding-left: 70%
+        padding-left: 60%
     }
 
     .shipping_method{
