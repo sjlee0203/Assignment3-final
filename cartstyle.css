@@ -287,6 +287,10 @@ h3, p {
 }
 
 @media screen and (max-width: 450px) {
+    body{
+        overflow-x: hidden;
+    }
+    
     header {
         flex-direction: column;
         align-items: center;
