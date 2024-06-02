@@ -71,6 +71,11 @@ header {
     width: 300px;
 }
 
+.form_group1 {
+    margin-bottom: 20px;
+    width: 300px;
+}
+
 .form_group.full_width {
     width: 550px;
 }
@@ -273,7 +278,7 @@ header {
 
     .express_buttons img {
         width: 60%;
-        height: auto;
+        height: 50%;
     }
 
     .shipping_method{
@@ -288,7 +293,7 @@ header {
         font-size: 120%;
     }
 
-    .form_group discount_code{
+    .form_group1 input{
         width: 50%;
     }
 
