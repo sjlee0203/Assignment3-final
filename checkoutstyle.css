@@ -234,6 +234,10 @@ header {
 }
 
 @media screen and (max-width: 450px) {   
+    body{
+        overflow-x: hidden;
+    }
+    
     header {
         display: flex;
         justify-content: center;
